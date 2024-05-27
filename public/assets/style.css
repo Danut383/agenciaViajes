@@ -1,0 +1,92 @@
+.sidebar {
+    background-color: #58ac89;
+    height: 100%;
+    min-height: 100vh;
+}
+.hidden {
+    display: none;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    position: relative;  /* se puede cambiar a 'absolute' si se requiere sacar el elemento del flujo normal del documento */
+    top: 5px;  
+}
+
+.white-text {
+    color: white !important;
+}
+
+.csMargin-right {
+    margin-right: 40px; 
+
+}
+
+.sidebar .nav-link {
+    color: white;
+    transition: background-color 0.5s;
+}
+.sidebar .nav-link:hover {
+    background-color: #ffffff20;
+}
+.table thead th {
+    background-color: #d1cfcf;
+    vertical-align: middle;
+    text-align: center;
+}
+.titlebar-commands {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    }
+    .btn-menu {
+    display: block;
+    padding: 2rem;
+    margin: 0.5rem;
+    background-color: #58ac89;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.custom-pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #58ac89;
+    border-color: #58ac89;
+}
+
+.custom-pagination .page-item.active .page-link:hover {
+    color: #fff;
+    background-color: #4a9074;
+    border-color: #4a9074;
+}
+
+.txt-expand{
+    font-size: 19px;
+}
+.txt-sidebar{
+    font-size: 22px;
+}
+.txt-sidebarl{
+    font-size: 21px;
+    color: white;
+}
+.btn-agregar {
+    margin-top: 1.5rem; /* Ajusta el valor según tus necesidades */
+}
+
+.gruporeservas{
+    font-size: 16px;
+    color: rgb(0, 60, 224);
+}
+
+.centerhoteldat{
+    margin-left: 162px;
+    width: 280px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  
